@@ -4,6 +4,4 @@ class Person:
     self.age = age
 
 p1 = Person("Tatevik", 18)
-
-print(p1.name)
-print(p1.age)
+assert sum([1, 2, 3]) == 6, "Should be 6"
