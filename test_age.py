@@ -16,4 +16,4 @@ class TestCategorizeByAge(unittest.TestCase):
         self.assertEqual(categorize_by_age(200), "Invalid age: 200")
         
 if __name__ == "__main__":
-    unittest.main()
+    unittest.main(verbosity=2)
